@@ -12,7 +12,7 @@ public class File_Handling {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter file address/file name");
+		System.out.println("Enter Location to Store File");
 		System.out.print("Enter : ");
 		
 		String s = sc.next()+sc.nextLine();
@@ -44,7 +44,7 @@ public class File_Handling {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter file address/file name");
+		System.out.println("Enter Location to Store File");
 		System.out.print("Enter : ");
 		
 		String s = sc.next()+sc.nextLine();
@@ -67,7 +67,7 @@ public class File_Handling {
 		{
 			Scanner sc1 = new Scanner(System.in);
 			
-			System.out.println("Enter file address/file name");
+			System.out.println("Enter Location to Store File");
 			System.out.print("Enter : ");
 			
 			String s1 = sc.next()+sc.nextLine();
@@ -103,7 +103,7 @@ public class File_Handling {
 		{
 			Scanner sc = new Scanner(System.in);
 			
-			System.out.println("Enter file address/file name");
+			System.out.println("Enter Location to Store File");
 			System.out.print("Enter : ");
 			
 			String s = sc.next()+sc.nextLine();
@@ -141,7 +141,7 @@ public class File_Handling {
 	{
 		Scanner sc1 = new Scanner(System.in);
 		
-		System.out.println("Enter file address/file name");
+		System.out.println("Enter Location to Store File");
 		System.out.print("Enter : ");
 		
 		String s = sc1.next()+sc1.nextLine();
