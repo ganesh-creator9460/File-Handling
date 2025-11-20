@@ -165,10 +165,10 @@ public class File_Handling {
 	{
 		File_Handling t = new File_Handling();
 
-//		t.createFile();
+		t.createFile();
 //		t.deleteFile();
 //		t.writeData();
-		t.readFile();
+// 		t.readFile();
 	}
 
 }
