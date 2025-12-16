@@ -178,7 +178,7 @@ public class File_Handling {
 				case 2 : t.deleteFile();
 					break;
 
-				case 3 : t.writeFile();
+				case 3 : t.writeData();
 					break;
 
 				case 4 : t.readFile();
