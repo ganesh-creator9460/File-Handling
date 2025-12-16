@@ -165,10 +165,27 @@ public class File_Handling {
 	{
 		File_Handling t = new File_Handling();
 
-		t.createFile();
-//		t.deleteFile();
-//		t.writeData();
-// 		t.readFile();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 1: For create file\nEnter 2: For delete file\nEnter 3: For write file\nEnter 4: For read file\n");
+		System.out.print("Enter : ");
+		int choise = sc.nextInt();
+
+		switch(choise)
+			{
+				case 1 : t.createFile();
+					break;
+
+				case 2 : t.deleteFile();
+					break;
+
+				case 3 : t.writeFile();
+					break;
+
+				case 4 : t.readFile();
+					break;
+
+			}
+		
 	}
 
 }
